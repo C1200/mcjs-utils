@@ -1,0 +1,19 @@
+{
+  "name": "@c1200/mcjs-utils",
+  "version": "1.0.0",
+  "description": "Utils for MCJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C1200/mcjs-utils.git"
+  },
+  "author": "C1200",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C1200/mcjs-utils/issues"
+  },
+  "homepage": "https://github.com/C1200/mcjs-utils#readme"
+}
