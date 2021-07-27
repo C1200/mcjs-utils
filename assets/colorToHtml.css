@@ -1,16 +1,21 @@
-.black, .black * { color: #000000; text-shadow: #000000 2px 2px; }
-.dark_blue, .dark_blue * { color: #0000AA; text-shadow: #00002A 2px 2px; }
-.dark_green, .dark_green * { color: #00AA00; text-shadow: #002A00 2px 2px; }
-.dark_aqua, .dark_aqua * { color: #00AAAA; text-shadow: #002A2A 2px 2px; }
-.dark_red, .dark_red * { color: #AA0000; text-shadow: #2A0000 2px 2px; }
-.dark_purple, .dark_purple * { color: #AA00AA; text-shadow: #2A002A 2px 2px; }
-.gold, .gold * { color: #FFAA00; text-shadow: #2A2A00 2px 2px; }
-.gray, .gray * { color: #AAAAAA; text-shadow: #2A2A2A 2px 2px; }
-.dark_gray, .dark_gray * { color: #555555; text-shadow: #151515 2px 2px; }
-.blue, .blue * { color: #5555FF; text-shadow: #15153F 2px 2px; }
-.green, .green * { color: #55FF55; text-shadow: #153F15 2px 2px; }
-.aqua, .aqua * { color: #55FFFF; text-shadow: #153F3F 2px 2px; }
-.red, .red * { color: #FF5555; text-shadow: #3F1515 2px 2px; }
-.light_purple, .light_purple * { color: #FF55FF; text-shadow: #3F153F 2px 2px; }
-.yellow, .yellow * { color: #FFFF55; text-shadow: #3F3F15 2px 2px; }
-.white, .white * { color: #FFFFFF; text-shadow: #3F3F3F 2px 2px; }
+.black { color: #000000; text-shadow: #000000 2px 2px; }
+.dark_blue { color: #0000AA; text-shadow: #00002A 2px 2px; }
+.dark_green { color: #00AA00; text-shadow: #002A00 2px 2px; }
+.dark_aqua { color: #00AAAA; text-shadow: #002A2A 2px 2px; }
+.dark_red { color: #AA0000; text-shadow: #2A0000 2px 2px; }
+.dark_purple { color: #AA00AA; text-shadow: #2A002A 2px 2px; }
+.gold { color: #FFAA00; text-shadow: #2A2A00 2px 2px; }
+.gray { color: #AAAAAA; text-shadow: #2A2A2A 2px 2px; }
+.dark_gray { color: #555555; text-shadow: #151515 2px 2px; }
+.blue { color: #5555FF; text-shadow: #15153F 2px 2px; }
+.green { color: #55FF55; text-shadow: #153F15 2px 2px; }
+.aqua { color: #55FFFF; text-shadow: #153F3F 2px 2px; }
+.red { color: #FF5555; text-shadow: #3F1515 2px 2px; }
+.light_purple { color: #FF55FF; text-shadow: #3F153F 2px 2px; }
+.yellow { color: #FFFF55; text-shadow: #3F3F15 2px 2px; }
+.white { color: #FFFFFF; text-shadow: #3F3F3F 2px 2px; }
+
+.bold { font-weight: bold; }
+.strike { text-decoration: line-through; }
+.under { text-decoration: underline; }
+.italic { font-style: italic; }

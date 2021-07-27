@@ -15,20 +15,22 @@ var colors = {
     "d": "light_purple",
     "e": "yellow",
     "f": "white",
+
+    "k": "obu",
+    "l": "bold",
+    "m": "strike",
+    "n": "under",
+    "o": "italic",
 }
 
 const colorToHtml = function (str = "", char = "&") {
-    return str.split(char).map((piece, index) => {
-        if (index !== 0) {
-            if (Object.keys(colors).find(key => key === piece.charAt(0))) {
-                return `<span class="${colors[piece.charAt(0)]}">${piece.substr(1)}</span>`;
-            } else {
-                return "&" + piece;
-            }
-        } else {
-            return piece;
-        }
-    }).join("");
+    var out = str;
+
+    Object.keys(colors).forEach((key) => {
+        out = out.replace(new RegExp(`${char}${key}`, "g"), `</span><span class="${colors[key]}">`);
+    });
+
+    return out.replace(char+"r", "</span>").replace("\n", "<br>");
 }
 
 String.prototype.colorToHtml = function (char = "&") {
